@@ -1,0 +1,33 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sample1"
+             x:Class="Sample1.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#3E3D32</Color>
+            <Color x:Key="Secondary">#25233F</Color>
+            <Color x:Key="FrameColor">#3E3D32</Color>
+            <Color x:Key="FrameColor_WhiteBG">#FAF9F8</Color>
+            <Color x:Key="FrameColorWhite">#FFFFFF</Color>
+            <Color x:Key="TextColorWhite">#0E0E16</Color>
+            <Color x:Key="TextColorBlack">#FFFFFF</Color>
+            <Color x:Key="TextColorAccent">#7CFDD0</Color>
+            <Color x:Key="ButtonColor">#5920D5</Color>
+
+
+            <Color x:Key="PriceColor">red</Color>
+            <Color x:Key="TextColorGray">Gray</Color>
+            <Color x:Key="PlaceHolderColor">Gray</Color>
+            <Color x:Key="Gradient1">#1E1F1C</Color>
+            <Color x:Key="Gradient2">#5920D5</Color>
+            <Color x:Key="ShadowDark">Black</Color>
+            <Color x:Key="CollectionViewSelectionColor">#292821</Color>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
